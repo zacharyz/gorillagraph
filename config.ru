@@ -1,2 +1,2 @@
-require './gorilla'
+require 'gorilla'
 run Sinatra::Application
