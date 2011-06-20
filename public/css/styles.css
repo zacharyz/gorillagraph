@@ -33,7 +33,7 @@ h2{
 #content{
 	padding-top: 200px;
 	margin:0px auto;      
-	padding-bottom: 150px;
+	padding-bottom: 300px;
 	overflow:auto;
 }
 
@@ -44,8 +44,8 @@ h1{
 #footer{
 	
 	position: relative;
-	margin-top: -150px; /* negative value of footer height */
-	height: 150px;
+	margin-top: -300px; /* negative value of footer height */
+	height: 300px;
     clear:both;	
     background-color:#3c3647;
     font-size:75%;
@@ -53,6 +53,13 @@ h1{
     color:#a39fab;        
 	text-align: center;
 }
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/
 
 #inner {
 	margin: 0px auto;
@@ -75,4 +82,6 @@ li{
 
 a{
     text-decoration:none;
-}
+}                   
+
+
