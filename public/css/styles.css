@@ -114,11 +114,14 @@ a{
 	width: 160px;
 }          
 .button {
-   border-top: 1px solid #f8ca26;
+   border-top: 1px solid #f8ca26;  
+   
    background: #f8ca26;
    background: -webkit-gradient(linear, left top, left bottom, from(#f3a318), to(#f8ca26));
    background: -moz-linear-gradient(top, #f3a318, #f8ca26);
-   padding: 4px 8px;
+background: url('/images/sign-up-button.png') no-repeat scroll top right;
+   padding: 4px 2px;
+   margin: 0 5px;
    -webkit-border-radius: 5px;
    -moz-border-radius: 5px;
    border-radius: 5px;
@@ -130,6 +133,7 @@ a{
    font-size: 17px;
    text-decoration: none;
    vertical-align: middle;
+	border: none;
    }
 .button:hover {
    border-top-color: #f3a318;
