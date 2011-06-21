@@ -76,11 +76,12 @@ body:before {
 }
 #follow-us { 
 	padding-top: 15px;
-	width: 260px;
+	width: 120px;
 	float: right; 	
+	padding-right: 130px;
 }                       
 #follow-us img {
-	padding: 5px;
+	padding: 8px;
 }
 #copyright {  
 	padding-top: 50px;
@@ -109,7 +110,8 @@ a{
 	-webkit-border-radius: 5px;
    	-moz-border-radius: 5px;
    	border-radius: 5px;        
-	height: 25px;
+	height: 25px;      
+	width: 160px;
 }          
 .button {
    border-top: 1px solid #f8ca26;
