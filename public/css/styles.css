@@ -111,16 +111,13 @@ a{
    	-moz-border-radius: 5px;
    	border-radius: 5px;        
 	height: 25px;      
-	width: 160px;
+	width: 155px;
 }          
 .button {
    border-top: 1px solid #f8ca26;  
-   
    background: #f8ca26;
-   background: -webkit-gradient(linear, left top, left bottom, from(#f3a318), to(#f8ca26));
-   background: -moz-linear-gradient(top, #f3a318, #f8ca26);
-background: url('/images/sign-up-button.png') no-repeat scroll top right;
-   padding: 4px 8px;
+   background: url('/images/sign-up-button.png') no-repeat scroll top right;
+   padding: 4px 6px;
    margin: 0 5px;
    -webkit-border-radius: 5px;
    -moz-border-radius: 5px;
