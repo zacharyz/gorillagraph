@@ -75,9 +75,13 @@ body:before {
 	text-align: left;    
 }
 #follow-us { 
+	padding-top: 15px;
 	width: 260px;
 	float: right; 	
 }                       
+#follow-us img {
+	padding: 5px;
+}
 #copyright {  
 	padding-top: 50px;
 	float: left;
