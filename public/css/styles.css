@@ -71,14 +71,14 @@ body:before {
 #signup {
 	width: 260px;
 	float: left; 
-	padding-left: 50px;
+	padding-left: 100px;
 	text-align: left;    
 }
 #follow-us { 
 	padding-top: 15px;
 	width: 120px;
 	float: right; 	
-	padding-right: 130px;
+	padding-right: 75px;
 }                       
 #follow-us img {
 	padding: 8px;
