@@ -65,16 +65,17 @@ body:before {
 
 #inner {
 	margin: 0px auto;
-	width: 700px;  
+	width: 600px;  
 	padding: 50px;
 }    
 #signup {
-	width: 300px;
-	float: left;
+	width: 260px;
+	float: left; 
+	padding-left: 50px;
 	text-align: left;    
 }
 #follow-us { 
-	width: 300px;
+	width: 260px;
 	float: right; 	
 }                       
 #copyright {  
