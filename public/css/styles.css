@@ -6,7 +6,8 @@ body {
 #wrapper{   
     margin:auto;                                            
 	background: url("/images/gorilla-grad.png") 0px 200px no-repeat;    
-	background-position:50% 270px;     
+	background-position:50% 270px; 
+	min-height: 100%;    
 	
 }
 .center {
@@ -32,22 +33,36 @@ h2{
 #content{
 	padding-top: 200px;
 	margin:0px auto;
-	overflow:auto;
+	overflow:auto;   
+    padding-bottom: 300px;
 }
 
 h1{
     font-size:150%;
 }
 
-#footer{
-    clear:both;	 
-	min-height: 300px;
+.clear {
+	clear:both;	
+}
+#footer{     
     background-color:#3c3647;
     font-size:75%;
     font-family:sans-serif;
     color:#a39fab;        
-	text-align: center;
+	text-align: center; 
+	position: relative;
+    margin-top: -300px; /* negative value of footer height */
+    height: 300px;
+    clear:both;
 }                        
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/
+}
 
 #inner {
 	margin: 0px auto;
