@@ -7,7 +7,6 @@ body {
     margin:auto;                                            
 	background: url("/images/gorilla-grad.png") 0px 200px no-repeat;    
 	background-position:50% 270px;     
-	height: 100%;
 	
 }
 .center {
@@ -49,15 +48,6 @@ h1{
     color:#a39fab;        
 	text-align: center;
 }                        
-
-/*Opera Fix*/
-body:before {
-	content:"";
-	height:100%;
-	float:left;
-	width:0;
-	margin-top:-32767px;
-}
 
 #inner {
 	margin: 0px auto;
