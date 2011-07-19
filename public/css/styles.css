@@ -1,4 +1,4 @@
-html, body {height: 100%;}
+html, body {height: 120%;}
 body {
 	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#c1beca));
     background: -moz-linear-gradient(top, #fff, #c1beca);
@@ -78,7 +78,7 @@ body:before {
 	padding-top: 15px;
 	width: 120px;
 	float: right; 	
-	padding-right: 75px;
+	padding-right: 100px;
 }                       
 #follow-us img {
 	padding: 8px;
@@ -111,7 +111,8 @@ a{
    	-moz-border-radius: 5px;
    	border-radius: 5px;        
 	height: 25px;      
-	width: 155px;
+	width: 243px;
+	padding: 0 5px;
 }          
 .button {
    border-top: 1px solid #f8ca26;  
@@ -140,4 +141,49 @@ a{
 .button:active {
    border-top-color: #f8ca26;
    background: #f8ca26;
-   }
+   }      
+
+.button2 {
+    float: left;
+	/*basic styles*/
+	width: 258px;  height:50px;  color: white; background-color: #f6aa32;
+	text-align: center;  font-size: 30px;  line-height: 50px;
+
+    margin-top: 10px;
+	/*gradient styles*/                                                          
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f6aa32), to(#e58c00));
+	background: -moz-linear-gradient(19% 75% 90deg,#e58c00, #f6aa32);
+
+	/*border styles*/
+	border-left: solid 1px #ffcd7e;
+	border-top: solid 1px #ffcd7e;
+	border-right: solid 1px #875300;
+	border-bottom: solid 1px #a6711e;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-gradient(linear, 0% 0%, 0% 100%, from(#e58c00), to(#f6aa32))
+
+}
+
+.button2 h3 {
+	font-size: 20px;
+	line-height: 35px;
+	font-family: helvetica, sans-serif;
+}
+
+.button2 p {
+	font-size: 12px;
+	line-height: 4px;
+	font-family: helvetica, sans-serif;
+}
+
+.button2 p {a {
+	text-decoration: none;
+	color: fff;
+}
+
+.button2:active,.button2:hover {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e58c00), to(#f6aa32));
+	background: -moz-linear-gradient(19% 75% 90deg,#f6aa32, #e58c00);
+}
