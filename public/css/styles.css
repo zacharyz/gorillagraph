@@ -6,7 +6,8 @@ body {
 #wrapper{   
     margin:auto;                                            
 	background: url("/images/gorilla-grad.png") 0px 200px no-repeat;    
-	background-position:50% 270px;    
+	background-position:50% 270px;     
+	height: 100%;
 	
 }
 .center {
