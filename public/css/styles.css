@@ -7,7 +7,6 @@ body {
     margin:auto;                                            
 	background: url("/images/gorilla-grad.png") 0px 200px no-repeat;    
 	background-position:50% 270px;    
-	min-height: 100%;
 	
 }
 .center {
@@ -32,8 +31,7 @@ h2{
 
 #content{
 	padding-top: 200px;
-	margin:0px auto;      
-	padding-bottom: 300px;
+	margin:0px auto;
 	overflow:auto;
 }
 
@@ -42,11 +40,8 @@ h1{
 }
 
 #footer{
-	
-	position: relative;
-	margin-top: -300px; /* negative value of footer height */
-	height: 300px;
-    clear:both;	
+    clear:both;	 
+	min-height: 300px;
     background-color:#3c3647;
     font-size:75%;
     font-family:sans-serif;
