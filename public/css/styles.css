@@ -1,4 +1,8 @@
-html, body {height: 120%;}
+html, body {
+	height: 100%;
+	margin: 0;
+    background-repeat: no-repeat;
+}
 body {
 	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#c1beca));
     background: -moz-linear-gradient(top, #fff, #c1beca);
