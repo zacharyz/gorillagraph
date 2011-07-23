@@ -3,27 +3,30 @@
    %head
       %title Gorilla Graph
       %link(rel="stylesheet" href="http://yui.yahooapis.com/2.8.0r4/build/reset/reset-min.css")  
-      %link(rel="stylesheet" href="css/styles.css")
+      %link(rel="stylesheet" href="css/styles.css")    
+      %link(rel="shortcut icon" href="./favicon.ico" type="image/x-icon")
    %body
       #wrapper
-         #header
-            %img(src="/images/gorilla_header.png" class="center")
-         #content
-            %img(src="/images/text.png" class="center")
-      #footer
-         #inner            
-            #signup
-               %p Developers, publishers, platform owners, sign up here to be notified about our first limited beta
-               %br    
-               <form action="http://gorillagraph.us2.list-manage.com/subscribe/post?u=a0a14a0ee511cfc4c94069c6e&amp;id=d0a7988e34" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-               <input type="text" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-               <input type="submit" value="Sign Up!" name="subscribe" id="mc-embedded-subscribe" class="button2">
-               </form>
-            #follow-us         
-               %p Follow Us
-               %a(href="http://www.facebook.com/pages/Gorilla-Graph/222464501126524")
-                  %img(src="/images/facebook.png")
-               %a(href="http://twitter.com/gorillagraph")  
-                  %img(src="/images/twitter.png")
-            #copyright @2011 Gorilla Graph
+         #header 
+            <img src="images/header.png" width="813" height="485" alt="" />
+
+      #footer              
+         #contact_form 
+            <form action="http://gorillagraph.us2.list-manage.com/subscribe/post?u=a0a14a0ee511cfc4c94069c6e&amp;id=d0a7988e34" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+            #field_box
+               <input type="text" value="" name="EMAIL" id="mce-EMAIL" class="field">
+            #signup_box
+               <input type="submit" value="Sign Up!" name="subscribe" id="mc-embedded-subscribe" class="button_signup">
+            </form>                                                                                              
+         #social_container
+            #twitter_box         
+               <a href="http://twitter.com/#!/gorillagraph" class="button_twitter">Twitter</a>
+            #facebook_box        
+               <a href="http://www.facebook.com/pages/Gorilla-Graph/222464501126524" class="button_facebook">Facebook</a>
+            #googleplus_box                                                    
+               <a href="http://twitter.com/#!/gorillagraph" class="button_googleplus">Google Plus</a>         
+         %div.byline.center © 2011 Gorilla Graph, Inc.
+         .clear
+                  
+            
          

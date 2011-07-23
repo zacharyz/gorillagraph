@@ -1,193 +1,114 @@
 html, body {
-	height: 100%;
-	margin: 0;
-    background-repeat: no-repeat;
+	background-image: url(/images/bg.png);
+	background-repeat: repeat-x;
+	background-color: #58c7d2;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
 }
-body {
-	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#c1beca));
-    background: -moz-linear-gradient(top, #fff, #c1beca);
+body,td,th {
+	font-size: 10px;
+	color: #FFF;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
 }
 #wrapper{   
-    margin:auto;                                            
-	background: url("/images/gorilla-grad.png") 0px 200px no-repeat;    
-	background-position:50% 270px;    
-	min-height: 100%;
-	
+    width:1000px;
+    border:0px; 
+	margin: 0 auto;
 }
 .center {
 	display: block;
 	margin: 0px auto;
 	
 }
-#header{
-	padding-top: 50px;
-	width: 900px;
+.clear {
+	clear:both;
+}
+#header{	
+	width: 813px;
+	height: 485px;
 	margin: 0px auto;
+	padding-top: 10px;
+	padding-bottom: 33px;
 }
 
-#header>h1{
-    font-size:200%;
+#footer{background:url(/images/bottom.png) no-repeat 0 0; width: 681px;margin: 0 auto;}         
+.byline {padding-left: 290px; padding-top: 70px; float: left; height: 50px; text-align: center;}
+/* Social */
+
+#social_container {width:115px;height:35px;border:0px; float:right;padding-top: 25px;} 
+#twitter_box {float:left; padding-right: 5px; border:0px;} 
+#facebook_box {float:left; padding-right: 5px; border:0px;} 
+#googleplus_box {float:left; border:0px} 
+
+a.button_twitter {
+	background: url(/images/button_twitter.png) no-repeat 0 0;
+	width: 35px;
+	height: 35px;
+	display: block;
+	text-indent: -9999px;
 }
 
-h2{
-    font-size:130%;
-    font-family:sans-serif;
+a.button_twitter:hover { background-position: 0 -35px; }
+
+a.button_twitter:active { background-position: 0 -70px; }
+
+a.button_facebook {
+	background: url(/images/button_facebook.png) no-repeat 0 0;
+	width: 35px;
+	height: 35px;
+	display: block;
+	text-indent: -9999px;
 }
 
-#content{
-	padding-top: 200px;
-	margin:0px auto;      
-	padding-bottom: 300px;
-	overflow:auto;
+a.button_facebook:hover { background-position: 0 -35px; }
+
+a.button_facebook:active { background-position: 0 -70px; }
+
+a.button_googleplus {
+	background: url(/images/button_googleplus.png) no-repeat 0 0;
+	width: 35px;
+	height: 35px;
+	display: block;
+	text-indent: -9999px;
 }
 
-h1{
-    font-size:150%;
+a.button_googleplus:hover { background-position: 0 -35px; }
+
+a.button_googleplus:active { background-position: 0 -70px; }     
+
+/* Contact Form */
+
+#contact_form {width: 681px; height:52px; display:block; border:none; float:left;}
+
+#blank_box {width:130px;float:left;border:0px; text-indent:-9999px}
+#field_box {width:462px;float:left;border:0px; margin-top:9px; margin-left: 130px;} 
+#signup_box {width:89px;float:left;border:0px; margin-top:9px} 
+
+.field {
+	background: url(/images/field.png) no-repeat 0 0;
+	width: 462px;
+	height: 35px;
+	display: block;
+	border:none;
+	font:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	color:#333;
+	font-weight:bold;
+	padding-left:8px;
 }
 
-#footer{
-	
-	position: relative;
-	margin-top: -300px; /* negative value of footer height */
-	height: 300px;
-    clear:both;	
-    background-color:#3c3647;
-    font-size:75%;
-    font-family:sans-serif;
-    color:#a39fab;        
-	text-align: center;
-}                        
-
-/*Opera Fix*/
-body:before {
-	content:"";
-	height:100%;
-	float:left;
-	width:0;
-	margin-top:-32767px;
+.button_signup {
+	background: url(/images/button_signup.png) no-repeat 0 0;
+	width: 85px;
+	height: 37px;
+	display: block;
+	text-indent: -9999px;
+	border:none;
+	margin-left:3px;
 }
 
-#inner {
-	margin: 0px auto;
-	width: 600px;  
-	padding: 50px;
-}    
-#signup {
-	width: 260px;
-	float: left; 
-	padding-left: 100px;
-	text-align: left;    
-}
-#follow-us { 
-	padding-top: 15px;
-	width: 120px;
-	float: right; 	
-	padding-right: 100px;
-}                       
-#follow-us img {
-	padding: 8px;
-}
-#copyright {  
-	padding-top: 50px;
-	float: left;
-	width: 100%;
-}
-ol{
-    padding-top:20px;
-    background-color:#ade;
-    display:block;
-}
+.button_signup:hover { background-position: 0 -37px; }
 
-li{
-    color:white;
-    text-align:center;
-    display:inline;
-    padding:5px 10px 0 10px;
-    margin-right:2px;
-    background-color: #69a;
-}
-
-a{
-    text-decoration:none;
-}         
-.email {
-	-webkit-border-radius: 5px;
-   	-moz-border-radius: 5px;
-   	border-radius: 5px;        
-	height: 25px;      
-	width: 243px;
-	padding: 0 5px;
-}          
-.button {
-   border-top: 1px solid #f8ca26;  
-   background: #f8ca26;
-   background: url('/images/sign-up-button.png') no-repeat scroll top right;
-   padding: 4px 6px;
-   margin: 0 5px;
-   -webkit-border-radius: 5px;
-   -moz-border-radius: 5px;
-   border-radius: 5px;
-   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   box-shadow: rgba(0,0,0,1) 0 1px 0;
-   text-shadow: rgba(0,0,0,.4) 0 1px 0;
-   color: #000000;
-   font-size: 17px;
-   text-decoration: none;
-   vertical-align: middle;
-	border: none;
-   }
-.button:hover {
-   border-top-color: #f3a318;
-   background: #f3a318;
-   color: #000000;
-   }
-.button:active {
-   border-top-color: #f8ca26;
-   background: #f8ca26;
-   }      
-
-.button2 {
-    float: left;
-	/*basic styles*/
-	width: 258px;  height:50px;  color: white; background-color: #f6aa32;
-	text-align: center;  font-size: 30px;  line-height: 50px;
-
-    margin-top: 10px;
-	/*gradient styles*/                                                          
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f6aa32), to(#e58c00));
-	background: -moz-linear-gradient(19% 75% 90deg,#e58c00, #f6aa32);
-
-	/*border styles*/
-	border-left: solid 1px #ffcd7e;
-	border-top: solid 1px #ffcd7e;
-	border-right: solid 1px #875300;
-	border-bottom: solid 1px #a6711e;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
-	-webkit-gradient(linear, 0% 0%, 0% 100%, from(#e58c00), to(#f6aa32))
-
-}
-
-.button2 h3 {
-	font-size: 20px;
-	line-height: 35px;
-	font-family: helvetica, sans-serif;
-}
-
-.button2 p {
-	font-size: 12px;
-	line-height: 4px;
-	font-family: helvetica, sans-serif;
-}
-
-.button2 p {a {
-	text-decoration: none;
-	color: fff;
-}
-
-.button2:active,.button2:hover {
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e58c00), to(#f6aa32));
-	background: -moz-linear-gradient(19% 75% 90deg,#f6aa32, #e58c00);
-}
+.button_signup:active { background-position: 0 -74px; }
